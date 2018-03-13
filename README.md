@@ -8,7 +8,7 @@
 $ docker build -t ubuntu_with_python . --no-cache=true
 ```
 
-## コンテナの起動
+## コンテナの起動(Mac)
 
 ```
 $ docker run --privileged -d --name python_server -v `pwd`/work:/mnt/work/ -it ubuntu_with_python
