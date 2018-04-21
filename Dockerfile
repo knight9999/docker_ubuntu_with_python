@@ -21,6 +21,6 @@ RUN ["/bin/bash", "-c", "source ~/.bashrc && pyenv install anaconda3-5.1.0 && py
 
 RUN chmod a+x /entry-script.bash
 
-COPY files/.vimrc /.vimrc
+COPY files/.vimrc /root/.vimrc
 
 CMD ["/entry-script.bash"]
